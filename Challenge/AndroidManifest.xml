@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.challenge.CameraActivity"
+            android:label="@string/title_camera" >
+        </activity>
+        <activity
+            android:name="com.example.challenge.GLActivity"
+            android:label="@string/title_gl" >
+        </activity>
     </application>
 
 </manifest>
