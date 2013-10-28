@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/activity_gl" android:title="@string/go_gl"></item>
+    <item android:id="@+id/activity_camera" android:title="@string/go_camera"></item>
+
+</menu>
