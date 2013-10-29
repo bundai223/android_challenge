@@ -1,0 +1,40 @@
+package com.example.challenge;
+
+import android.content.Context;
+import android.opengl.GLES20;
+import android.opengl.GLSurfaceView;
+
+import javax.microedition.khronos.egl.EGLConfig;
+import javax.microedition.khronos.opengles.GL10;
+
+/**
+ * Created by daiji on 2013/10/23.
+ */
+public final class GLRenderer implements GLSurfaceView.Renderer {
+
+
+    private final Context mContext;
+
+    // 繧ｳ繝ｳ繧ｹ繝医Λ繧ｯ繧ｿ
+    public GLRenderer(Context context) {
+        mContext = context;
+    }
+
+    // 逕滓�譎ゅ�蜃ｦ逅�    @Override
+    public void onSurfaceCreated(final GL10 gl, final EGLConfig config) {
+
+    }
+
+    //
+    @Override
+    public void onSurfaceChanged(final GL10 gl, final int width, final int height) {
+        GLES20.glViewport(0, 0, width, height);
+    }
+
+    // 豈弱ヵ繝ｬ繝ｼ繝��謠冗判蜃ｦ逅�    @Override
+    public void onDrawFrame(final GL10 gl) {
+
+        GLES20.glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
+        GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
+    }
+}

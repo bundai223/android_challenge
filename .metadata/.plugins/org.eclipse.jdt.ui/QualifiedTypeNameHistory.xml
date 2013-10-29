@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.view.MenuItem"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.example.challenge.GLActivity"/>
+<fullyQualifiedTypeName name="com.example.challenge.CameraActivity"/>
+<fullyQualifiedTypeName name="com.example.challenge.R.id"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.id"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2"/>
+<fullyQualifiedTypeName name="org.opencv.core.Mat"/>
+<fullyQualifiedTypeName name="android.view.WindowManager"/>
+<fullyQualifiedTypeName name="android.view.WindowManager.LayoutParams"/>
+<fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
+<fullyQualifiedTypeName name="org.opencv.android.JavaCameraView"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout.LayoutParams"/>
+<fullyQualifiedTypeName name="org.opencv.android.OpenCVLoader"/>
+<fullyQualifiedTypeName name="org.opencv.android.BaseLoaderCallback"/>
+<fullyQualifiedTypeName name="org.opencv.android.LoaderCallbackInterface"/>
+<fullyQualifiedTypeName name="org.opencv.android.CameraBridgeViewBase"/>
+<fullyQualifiedTypeName name="org.opencv.imgproc.Imgproc"/>
+<fullyQualifiedTypeName name="org.opencv.core.Core"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,66 @@
+package com.example.camera;
+
+import org.opencv.android.CameraBridgeViewBase;
+import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
+import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
+import org.opencv.core.Mat;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.WindowManager;
+
+public class CameraActivity extends Activity implements CvCameraViewListener2{
+
+	public static final int BACK_CAMERA = 0;
+	public static final int FRONT_CAMERA = 1;
+	
+	private CameraBridgeViewBase mCameraView;
+	private Mat	mOutputFrame;
+
+	// 生成
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.sub, menu);
+        return true;
+    }
+
+    // メニューアイテム選択イベント
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case R.id.back_to_main:
+        	finish();
+            break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+	@Override
+	public void onCameraViewStarted(int width, int height) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
+	@Override
+	public void onCameraViewStopped() {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+
+	// メイン処理
+	@Override
+	public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+}

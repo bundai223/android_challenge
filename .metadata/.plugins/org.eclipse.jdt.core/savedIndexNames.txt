@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/Users/daiji/labo/android_challenge/.metadata/.plugins/org.eclipse.jdt.core
+3065708985.index
+1392986885.index
+2068789408.index
+4213005406.index
+2799296805.index

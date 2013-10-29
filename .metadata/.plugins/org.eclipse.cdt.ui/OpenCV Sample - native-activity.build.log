@@ -1,0 +1,11 @@
+
+**** Build of configuration Default for project OpenCV Sample - native-activity ****
+
+"/ndk-build.cmd" 
+
+ƒvƒƒOƒ‰ƒ€ ""/ndk-build.cmd"" ‚ğÀs‚Å‚«‚Ü‚¹‚ñ: Unknown reason
+Error: Program ""/ndk-build.cmd"" is not found in PATH
+
+PATH=[/usr/bin:/bin:/usr/sbin:/sbin]
+
+**** Build Finished ****
