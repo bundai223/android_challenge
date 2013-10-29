@@ -28,7 +28,8 @@ public class MainActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
         case R.id.activity_camera:
-        	startActivity(new Intent(MainActivity.this, CameraActivity.class));
+//        	startActivity(new Intent(MainActivity.this, CameraActivity.class));
+        	startActivity(new Intent(MainActivity.this, FacedetectActivity.class));
             break;
         case R.id.activity_gl:
         	startActivity(new Intent(MainActivity.this, GLActivity.class));

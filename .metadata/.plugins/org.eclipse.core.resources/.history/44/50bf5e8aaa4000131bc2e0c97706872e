@@ -1,0 +1,26 @@
+package com.example.camera;
+
+import java.io.File;
+
+import org.opencv.core.Mat;
+import org.opencv.core.Size;
+import org.opencv.objdetect.CascadeClassifier;
+
+import android.content.Context;
+
+public class FaceDetector {
+	
+	private CascadeClassifier	mCascadeClassifier;
+	private Size	mMinSize1;
+	private float	mMinSize2;
+	private Size	mMaxSize;
+	private Mat		mInputFrameRgba;
+	private Mat		mInputFrameGray;
+
+	public FaceDetector(String dir, String filename, Context context) {
+		File workingDir = context.getDir(dir, Context.MODE_PRIVATE);
+		File workingFile = loadModelFile(workingDir, filename, context);
+		
+		mCascadeClassifier = new CascadeClassifier(workingFile.getAbsolutePath());
+	}
+}
